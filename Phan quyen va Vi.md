@@ -29,7 +29,8 @@ Cú pháp: #usermod [option] <username>
 </ul>
 <li>Ví dụ: #usermod –g kinhdoanh vana  //chuyển vana từ nhóm server admin sang nhóm kinh doanh.
 ###c. Xóa người dùng
-<li>Cúpháp : #userdel [option] <username>
+Cúpháp : #userdel [option] <username>
+<ul>
 <li>Vídụ :  #userdel  –r  vana
 ###d. Khóa/Mở khóa người dùng
 <li>passwd –l <username>  /  passwd –u <username>
