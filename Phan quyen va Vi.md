@@ -15,17 +15,34 @@
 ###a. Tạo User:
 Cú pháp: #useradd [option] <username>
 <ul>
-<li>-c <Thông tin người dùng>
-<li>-d <Thư mục cá nhân>
+<li>-c :Thông tin người dùng
+<li>-d :Thư mục cá nhân
 <li>-m : Tạo thư mục cá nhân nếu chưa tồn tại
-<li>-g <nhóm của người dùng>
-<li>-p <tạo mậ khẩu>
+<li>-g :nhóm của người dùng
+<li>-p :tạo mậ khẩu
 </ul>
 <li>Ví dụ: #useradd –c “Nguyen Van A – Server Admin” –g serveradmin vana
 ###b. Thay đổi thông tin cá nhân:
 Cú pháp: #usermod [option] <username>
 <ul>
-Những option tương tự Useradd
+<li> -c, comment : thay đổi thông tin cá nhân của tài khoản người dùng.
+<li> -d, home_dir : thay đổi thư mục cá nhân của tài khoản người dùng.
+<li> -e, expire_date : thay đổi thời điểm hết hạn của tài khoản người dùng (YYYYMM-DD).
+
+<li> -f, inactive_days : thiết đặt số ngày hết hiệu lực của mật khẩu trước khi tài
+khoản người dùng hết hạn sử dụng.
+<li> -g, initial_group : tùy chọn này thay đổi tên hoặc số khởi tạo đăng nhập nhóm
+người dùng.Tên nhóm phải tồn tại, và số của nhóm phải tham chiếu đến một nhóm đã tồn tại.
+Số nhóm ngầm định là 1.
+<li> -G, group : thay đổi danh sách các nhóm phụ mà người dùng cũng là thành
+viên thuộc các nhóm đó. Mỗi nhóm sẽ được ngăn cách với nhóm khác bởi dấu ','
+mặc định người dùng sẽ thuộc vào nhóm khởi tạo.
+<li> -l, login_name : thay đổi tên đăng nhập của người dùng. Trong một số trường
+hợp, tên thư mục riêng của người dùng có thể sẽ thay đổi để tham chiếu đến tên
+đăng nhập mới.
+<li> -p, passwd : thay đổi mật khẩu đăng nhập của tài khoản người dùng.
+<li> -s, shell : thay đổi shell đăng nhập.
+<li> -u, uid : thay đổi chỉ số người dùng. 
 <li>Ví dụ: #usermod –g kinhdoanh vana  //chuyển vana từ nhóm server admin sang nhóm kinh doanh.
 </ul>
 ###c. Xóa người dùng
