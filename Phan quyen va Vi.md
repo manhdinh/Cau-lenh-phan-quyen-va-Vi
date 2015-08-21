@@ -53,7 +53,10 @@ Cúpháp : #userdel [option] <username>
 ###d. Khóa/Mở khóa người dùng
 <ul>
 passwd –l <username>  /  passwd –u <username>
+</ul>
+<ul>
 usermod –L <username> /  usermod –U <username>
+</ul>
 Trong /etc/shadow có thể khóa tài khoản bằng cách thay từ khóa x bằng từ khóa *.
 </ul>
 ###e. Tạo nhóm:
@@ -123,7 +126,7 @@ Lệnh Chown : dùng thay đổi người sở hữu.
 	<ul>
 Cú pháp : #chown  <owner>  <filename>
 </ul>
-	<li>Lệnh Chgrp : dùng thay đổi nhóm sở hữu.
+Lệnh Chgrp : dùng thay đổi nhóm sở hữu.
 	<ul>
 Cú pháp : #chgrp  <group>  <filename>
  </ul>
