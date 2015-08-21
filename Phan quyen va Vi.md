@@ -15,7 +15,7 @@
 ###a. Tạo User:
 Cú pháp: #useradd [option] <username>
 <ul>
-<li>-c “Thông tin người dùng”
+<li>-c <Thông tin người dùng>
 <li>-d <Thư mục cá nhân>
 <li>-m : Tạo thư mục cá nhân nếu chưa tồn tại
 <li>-g <nhóm của người dùng>
