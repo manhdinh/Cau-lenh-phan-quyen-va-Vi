@@ -1,4 +1,4 @@
-#.I Câu lệnh về phân quyền
+#I Câu lệnh về phân quyền
 ##1 User
 **Định nghĩa**
 <li> User là người có thể truy cập đến hệ thống
