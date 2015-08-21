@@ -52,6 +52,11 @@ Cúpháp : #userdel [option] <username>
 </ul>
 ###d. Khóa/Mở khóa người dùng
 <ul>
+ Cơ sở dữ liệu cơ bản của người dùng được lưu trữ
+trong file /etc/passwd. File này liệt kê tất cả các tên người dùng hợp lệ và các
+thông tin liên quan của mỗi người dùng trên hệ thống. cú pháp # cat etc /paswd 
+</ul>
+<ul>
 passwd –l <username>  /  passwd –u <username>
 </ul>
 <ul>
@@ -122,11 +127,22 @@ Lệnh Chmod : dùng để cấp quyền hạn.
 <li>Cú pháp : #chmod  <specification> <file>
 <li>Ví dụ: #chmod 644 baitap.txt   //cấp quyền cho owner có thể ghi các nhóm các chỉ có quyền đọc với file taptin.txt
 </ul>
-Lệnh Chown : dùng thay đổi người sở hữu.
+Lệnh Chown : dùng thay đổi người sở hữu.Lệnh này cho phép thay chủ sở hữu tập tin. Nếu chỉ có tham số về chủ, thì người
+dùng chủ sẽ có quyền sở hữu tập tin và nhóm sở hữu không thay đổi. Nếu theo
+sau tên người chủ là dấu "." và tên của một nhóm thì nhóm đó sẽ nhóm sở hữu
+tập tin. Nếu chỉ có dấu "." và nhóm mà không có tên người chủ thì chỉ có quyền
+sở hữu nhóm của tập tin thay đổi, lúc này, lệnh chown có tác dụng giống như
+lệnh chgrp
 	<ul>
 Cú pháp : #chown  <owner>  <filename>
 </ul>
-Lệnh Chgrp : dùng thay đổi nhóm sở hữu.
+Lệnh Chgrp : dùng thay đổi nhóm sở hữu.Các tập tin (và người dùng) còn thuộc vào các nhóm, đây là phương thức truy
+nhập tập tin thuận tiện cho nhiều người dùng nhưng không phải tất cả người
+dùng trên hệ thống. Khi đăng nhập, mặc định sẽ là thành viên của một nhóm
+được thiết lập khi người dùng cao cấp root tạo tài khoản người dùng. Cho phép
+một người dùng thuộc nhiều nhóm khác nhau, nhưng mỗi lần đăng nhập chỉ là
+thành viên của một nhóm. 
+
 	<ul>
 Cú pháp : #chgrp  <group>  <filename>
  </ul>
