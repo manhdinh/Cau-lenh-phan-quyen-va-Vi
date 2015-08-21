@@ -103,7 +103,7 @@ Cú pháp : #chmod  <specification> <file>
 	<ul>
 Cú pháp : #chown  <owner>  <filename>
 </ul>
-	Lệnh Chgrp : dùng thay đổi nhóm sở hữu.
+	<li>Lệnh Chgrp : dùng thay đổi nhóm sở hữu.
 	<ul>
 Cú pháp : #chgrp  <group>  <filename>
  </ul>
