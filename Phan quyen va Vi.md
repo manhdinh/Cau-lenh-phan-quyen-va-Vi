@@ -34,16 +34,18 @@ Cú pháp: #usermod [option] <username>
 ###d. Khóa/Mở khóa người dùng
 <li>passwd –l <username>  /  passwd –u <username>
 <li>usermod –L <username> /  usermod –U <username>
-Trong /etc/shadow có thể khóa tài khoản bằng cách thay từ khóa x bằng từ khóa *.
-e. Tạo nhóm:
-Cú pháp: #groupadd <groupname>
-Ví dụ: #groupadd serveradmin
-f. Xóa nhóm
-Cú pháp: #groupdel <groupname>
-Ví dụ: #groupdel <serveradmin>
-g.  Xem thông tin về User và Group
+<li>Trong /etc/shadow có thể khóa tài khoản bằng cách thay từ khóa x bằng từ khóa *.
+###e. Tạo nhóm:
+<li>Cú pháp: #groupadd <groupname>
+<li>Ví dụ: #groupadd serveradmin
+###f. Xóa nhóm
+<li>Cú pháp: #groupdel <groupname>
+<li>Ví dụ: #groupdel <serveradmin>
+###g.  Xem thông tin về User và Group
 Cú pháp: #id <option> <username>
-Ví dụ: #id -g vana //xem GroupID của user vana
+<ul>
+<li>Ví dụ: #id -g vana //xem GroupID của user vana
+</ul>
 Cú pháp: #groups <username>
 Ví dụ: #groups vana //xem tên nhóm của user vana
 h. Lệnh add user vào Group:
