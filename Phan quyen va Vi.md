@@ -100,7 +100,7 @@ Lệnh Chmod : dùng để cấp quyền hạn.
 <li>Cú pháp : #chmod  <specification> <file>
 <li>Ví dụ: #chmod 644 baitap.txt   //cấp quyền cho owner có thể ghi các nhóm các chỉ có quyền đọc với file taptin.txt
 </ul>
-	<li>Lệnh Chown : dùng thay đổi người sở hữu.
+Lệnh Chown : dùng thay đổi người sở hữu.
 	<ul>
 Cú pháp : #chown  <owner>  <filename>
 </ul>
