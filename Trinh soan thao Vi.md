@@ -7,10 +7,8 @@ như một số các đặc điểm bổ sung
 #II.Các chế độ trong Vi
 ##1.Chế độ thứ nhất là chế độ input. 
 Trong chế độ này, văn bản được đưa vào trong tài liệu, bạn có thể chèn hoặc bổ sung văn bản.
-##2.Chế độ thứ hai là chê độ dòng lệnh. Khi ở chế độ này, bạn có thể dịch chuyển trên tài
-liệu, trộn các dòng, tìm kiếm, …Bạn có thể thực hiện tất cả các chức năng của vi từ
-chế độ dòng lệnh ngoại trừ việc nhập vào văn bản. Văn bản chỉ có thể được vào trong
-chế độ input. 
+##2.Chế độ thứ hai là chê độ dòng lệnh. 
+Khi ở chế độ này, bạn có thể dịch chuyển trên tài liệu, trộn các dòng, tìm kiếm, …Bạn có thể thực hiện tất cả các chức năng của vi từ chế độ dòng lệnh ngoại trừ việc nhập vào văn bản. Văn bản chỉ có thể được vào trong chế độ input. 
 #.III Các câu lệnh
 <li>Ctrl + D : Chuyển cửa sổ xuống bằng một nửa màn hình
 <li>Ctrl + U : Chuyển cửa sổ lên bằng một nửa màn hình
