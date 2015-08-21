@@ -133,7 +133,7 @@ sau tên người chủ là dấu "." và tên của một nhóm thì nhóm đó
 tập tin. Nếu chỉ có dấu "." và nhóm mà không có tên người chủ thì chỉ có quyền
 sở hữu nhóm của tập tin thay đổi, lúc này, lệnh chown có tác dụng giống như
 lệnh chgrp
-	<ul>
+<ul>
 Cú pháp : #chown  <owner>  <filename>
 </ul>
 Lệnh Chgrp : dùng thay đổi nhóm sở hữu.Các tập tin (và người dùng) còn thuộc vào các nhóm, đây là phương thức truy
@@ -143,6 +143,6 @@ dùng trên hệ thống. Khi đăng nhập, mặc định sẽ là thành viên
 một người dùng thuộc nhiều nhóm khác nhau, nhưng mỗi lần đăng nhập chỉ là
 thành viên của một nhóm. 
 
-	<ul>
+<ul>
 Cú pháp : #chgrp  <group>  <filename>
  </ul>
