@@ -31,9 +31,9 @@ Cú pháp: #usermod [option] <username>
 ###c. Xóa người dùng
 <li>Cúpháp : #userdel [option] <username>
 <li>Vídụ :  #userdel  –r  vana
-d. Khóa/Mở khóa người dùng
-passwd –l <username>  /  passwd –u <username>
-usermod –L <username> /  usermod –U <username>
+###d. Khóa/Mở khóa người dùng
+<li>passwd –l <username>  /  passwd –u <username>
+<li>usermod –L <username> /  usermod –U <username>
 Trong /etc/shadow có thể khóa tài khoản bằng cách thay từ khóa x bằng từ khóa *.
 e. Tạo nhóm:
 Cú pháp: #groupadd <groupname>
