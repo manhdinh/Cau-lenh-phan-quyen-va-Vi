@@ -37,10 +37,12 @@ Cúpháp : #userdel [option] <username>
 <li>usermod –L <username> /  usermod –U <username>
 <li>Trong /etc/shadow có thể khóa tài khoản bằng cách thay từ khóa x bằng từ khóa *.
 ###e. Tạo nhóm:
-<li>Cú pháp: #groupadd <groupname>
+Cú pháp: #groupadd <groupname>
+ul>
 <li>Ví dụ: #groupadd serveradmin
 ###f. Xóa nhóm
-<li>Cú pháp: #groupdel <groupname>
+Cú pháp: #groupdel <groupname>
+<ul>
 <li>Ví dụ: #groupdel <serveradmin>
 ###g.  Xem thông tin về User và Group
 Cú pháp: #id <option> <username>
@@ -48,42 +50,52 @@ Cú pháp: #id <option> <username>
 <li>Ví dụ: #id -g vana //xem GroupID của user vana
 </ul>
 Cú pháp: #groups <username>
-Ví dụ: #groups vana //xem tên nhóm của user vana
-h. Lệnh add user vào Group:
-usermod -g Sale jenln
- 
-4.  Những file liên quan đến User và Group
-#/etc/passwd
-Mỗi dòng trong tập tin gồm có 7 trường, được phân cách bởi dấu hai chấm.
-#/etc/group
-Mỗi dòng trong tập tin gồm có 4 trường, được phân cách bởi dấu hai chấm.
-#/etc/shadow
-Lưu mật khẩu đã được mã hóa và chỉ có user root mới được quyền đọc.
-5.  Quyền hạn
-a. Trong Linux có 3 dạng đối tượng :
-•	Owner (người sở hữu).
-•	Group owner (nhóm sở hữu).
-•	Other users (những người khác).
-b. Các quyền hạn :
-•	Read – r – 4  : cho phép đọc nội dung.
-•	Write – w – 2  : dùng để tạo, thay đổi hay xóa.
-•	Execute – x – 1  : thực thi chương trình.
-Vídụ : Với lệnh ls –l ta thấy :
+<ul>
+<li>Ví dụ: #groups vana //xem tên nhóm của user vana
+###h. Lệnh add user vào Group:
+<li>usermod -g Sale jenln
+##4.  Những file liên quan đến User và Group
+/etc/passwd
+<ul>
+<li>Mỗi dòng trong tập tin gồm có 7 trường, được phân cách bởi dấu hai chấm.
+/etc/group
+<ul>
+<li>Mỗi dòng trong tập tin gồm có 4 trường, được phân cách bởi dấu hai chấm.
+/etc/shadow
+<ul>
+<li>Lưu mật khẩu đã được mã hóa và chỉ có user root mới được quyền đọc.
+##5.  Quyền hạn
+###a. Trong Linux có 3 dạng đối tượng :
+<li>	Owner (người sở hữu).
+<li>	Group owner (nhóm sở hữu).
+<li>	Other users (những người khác).
+###b. Các quyền hạn :
+<li>	Read – r – 4  : cho phép đọc nội dung.
+<li>	Write – w – 2  : dùng để tạo, thay đổi hay xóa.
+<li>	Execute – x – 1  : thực thi chương trình.
+<ul>
+<li>Vídụ : Với lệnh ls –l ta thấy :
 [root@task ~]# ls -l
 total 32
 -rw-------. 1 root root  1416 Jan 10 14:06 anaconda-ks.cfg
 -rw-r--r--. 1 root root 15522 Jan 10 14:06 install.log
 -rw-r--r--. 1 root root  5337 Jan 10 14:06 install.log.syslog
 drwxr-xr-x  6 root root  4096 Feb  9 10:02 softs
-d. Ngoài ra, chúng ta có thể dùng số.
-Vídụ : quyền r, w, x : 4+2+1 = 7
+</ul>
+###d. Ngoài ra, chúng ta có thể dùng số.
+<li>Vídụ : quyền r, w, x : 4+2+1 = 7
 Tổ hợp 3 quyền trên có giá trị từ 0 đến 7.
-6.  Các lệnh liên quan đến quyền hạn
-•	Lệnh Chmod : dùng để cấp quyền hạn.
+##6.  Các lệnh liên quan đến quyền hạn
+	Lệnh Chmod : dùng để cấp quyền hạn.
+	<ul>
 Cú pháp : #chmod  <specification> <file>
-Ví dụ: #chmod 644 baitap.txt   //cấp quyền cho owner có thể ghi các nhóm các chỉ có quyền đọc với file taptin.txt
-•	Lệnh Chown : dùng thay đổi người sở hữu.
+<li>Ví dụ: #chmod 644 baitap.txt   //cấp quyền cho owner có thể ghi các nhóm các chỉ có quyền đọc với file taptin.txt
+</ul>
+	Lệnh Chown : dùng thay đổi người sở hữu.
+	<ul>
 Cú pháp : #chown  <owner>  <filename>
-•	Lệnh Chgrp : dùng thay đổi nhóm sở hữu.
+</ul>
+	Lệnh Chgrp : dùng thay đổi nhóm sở hữu.
+	<ul>
 Cú pháp : #chgrp  <group>  <filename>
- 
+ </ul>
