@@ -85,11 +85,11 @@ Cú pháp: #groups <username>
 <li>Vídụ : Với lệnh ls –l ta thấy :
 <ul>
 [root@task ~]# ls -l
-total 32
--rw-------. 1 root root  1416 Jan 10 14:06 anaconda-ks.cfg
--rw-r--r--. 1 root root 15522 Jan 10 14:06 install.log
--rw-r--r--. 1 root root  5337 Jan 10 14:06 install.log.syslog
-drwxr-xr-x  6 root root  4096 Feb  9 10:02 softs
+<li>total 32
+<li>-rw-------. 1 root root  1416 Jan 10 14:06 anaconda-ks.cfg
+<li>-rw-r--r--. 1 root root 15522 Jan 10 14:06 install.log
+<li>-rw-r--r--. 1 root root  5337 Jan 10 14:06 install.log.syslog
+<li>drwxr-xr-x  6 root root  4096 Feb  9 10:02 softs
 </ul>
 ###d. Ngoài ra, chúng ta có thể dùng số.
 <li>Vídụ : quyền r, w, x : 4+2+1 = 7
