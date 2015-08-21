@@ -95,7 +95,7 @@ Cú pháp: #groups <username>
 <li>Vídụ : quyền r, w, x : 4+2+1 = 7
 Tổ hợp 3 quyền trên có giá trị từ 0 đến 7.
 ##6.  Các lệnh liên quan đến quyền hạn
-	Lệnh Chmod : dùng để cấp quyền hạn.
+	<li>Lệnh Chmod : dùng để cấp quyền hạn.
 	<ul>
 Cú pháp : #chmod  <specification> <file>
 <li>Ví dụ: #chmod 644 baitap.txt   //cấp quyền cho owner có thể ghi các nhóm các chỉ có quyền đọc với file taptin.txt
