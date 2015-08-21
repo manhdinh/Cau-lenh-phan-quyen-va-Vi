@@ -24,8 +24,8 @@ Cú pháp: #useradd [option] <username>
 <li>Ví dụ: #useradd –c “Nguyen Van A – Server Admin” –g serveradmin vana
 ###b. Thay đổi thông tin cá nhân:
 Cú pháp: #usermod [option] <username>
-Những option tương tự Useradd
 <ul>
+Những option tương tự Useradd
 <li>Ví dụ: #usermod –g kinhdoanh vana  //chuyển vana từ nhóm server admin sang nhóm kinh doanh.
 </ul>
 ###c. Xóa người dùng
@@ -62,12 +62,15 @@ Cú pháp: #groups <username>
 /etc/passwd
 <ul>
 <li>Mỗi dòng trong tập tin gồm có 7 trường, được phân cách bởi dấu hai chấm.
+</ul>
 /etc/group
 <ul>
 <li>Mỗi dòng trong tập tin gồm có 4 trường, được phân cách bởi dấu hai chấm.
+</ul>
 /etc/shadow
 <ul>
 <li>Lưu mật khẩu đã được mã hóa và chỉ có user root mới được quyền đọc.
+</ul>
 ##5.  Quyền hạn
 ###a. Trong Linux có 3 dạng đối tượng :
 <li>	Owner (người sở hữu).
