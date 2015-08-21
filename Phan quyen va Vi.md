@@ -24,10 +24,10 @@ Cú pháp: #useradd [option] <username>
 <li>Ví dụ: #useradd –c “Nguyen Van A – Server Admin” –g serveradmin vana
 ###b. Thay đổi thông tin cá nhân:
 Cú pháp: #usermod [option] <username>
+Những option tương tự Useradd
 <ul>
-<li>Những option tương tự Useradd
-</ul>
 <li>Ví dụ: #usermod –g kinhdoanh vana  //chuyển vana từ nhóm server admin sang nhóm kinh doanh.
+</ul>
 ###c. Xóa người dùng
 Cúpháp : #userdel [option] <username>
 <ul>
