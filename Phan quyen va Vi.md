@@ -32,18 +32,20 @@ Cú pháp: #usermod [option] <username>
 Cúpháp : #userdel [option] <username>
 <ul>
 <li>Vídụ :  #userdel  –r  vana
+</ul>
 ###d. Khóa/Mở khóa người dùng
 <li>passwd –l <username>  /  passwd –u <username>
 <li>usermod –L <username> /  usermod –U <username>
 <li>Trong /etc/shadow có thể khóa tài khoản bằng cách thay từ khóa x bằng từ khóa *.
 ###e. Tạo nhóm:
 Cú pháp: #groupadd <groupname>
-ul>
+<ul>
 <li>Ví dụ: #groupadd serveradmin
 ###f. Xóa nhóm
 Cú pháp: #groupdel <groupname>
 <ul>
 <li>Ví dụ: #groupdel <serveradmin>
+</ul>
 ###g.  Xem thông tin về User và Group
 Cú pháp: #id <option> <username>
 <ul>
@@ -52,6 +54,7 @@ Cú pháp: #id <option> <username>
 Cú pháp: #groups <username>
 <ul>
 <li>Ví dụ: #groups vana //xem tên nhóm của user vana
+</ul>
 ###h. Lệnh add user vào Group:
 <li>usermod -g Sale jenln
 ##4.  Những file liên quan đến User và Group
