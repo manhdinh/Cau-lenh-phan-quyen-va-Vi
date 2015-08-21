@@ -77,11 +77,13 @@ Cú pháp: #groups <username>
 <li>	Group owner (nhóm sở hữu).
 <li>	Other users (những người khác).
 ###b. Các quyền hạn :
+<ul>
 <li>	Read – r – 4  : cho phép đọc nội dung.
 <li>	Write – w – 2  : dùng để tạo, thay đổi hay xóa.
 <li>	Execute – x – 1  : thực thi chương trình.
-<ul>
+</ul>
 <li>Vídụ : Với lệnh ls –l ta thấy :
+<ul>
 [root@task ~]# ls -l
 total 32
 -rw-------. 1 root root  1416 Jan 10 14:06 anaconda-ks.cfg
