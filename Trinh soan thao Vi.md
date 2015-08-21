@@ -5,8 +5,8 @@ không đòi hỏi nhiều tài nguyên, thêm vào đó là các chức năng s
 thể tìm kiếm, thay thế, và kết nối các file,và nó có ngôn ngữ macro của chính nó, cũng
 như một số các đặc điểm bổ sung
 #II.Các chế độ trong Vi
-##1.Chế độ thứ nhất là chế độ input. Trong chế độ này, văn bản được đưa vào trong tài
-liệu, bạn có thể chèn hoặc bổ sung văn bản.
+##1.Chế độ thứ nhất là chế độ input. 
+Trong chế độ này, văn bản được đưa vào trong tài liệu, bạn có thể chèn hoặc bổ sung văn bản.
 ##2.Chế độ thứ hai là chê độ dòng lệnh. Khi ở chế độ này, bạn có thể dịch chuyển trên tài
 liệu, trộn các dòng, tìm kiếm, …Bạn có thể thực hiện tất cả các chức năng của vi từ
 chế độ dòng lệnh ngoại trừ việc nhập vào văn bản. Văn bản chỉ có thể được vào trong
