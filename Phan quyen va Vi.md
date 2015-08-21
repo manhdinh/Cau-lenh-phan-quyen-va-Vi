@@ -41,6 +41,7 @@ Cúpháp : #userdel [option] <username>
 Cú pháp: #groupadd <groupname>
 <ul>
 <li>Ví dụ: #groupadd serveradmin
+</ul>
 ###f. Xóa nhóm
 Cú pháp: #groupdel <groupname>
 <ul>
