@@ -51,9 +51,11 @@ Cúpháp : #userdel [option] <username>
 <li>Vídụ :  #userdel  –r  vana
 </ul>
 ###d. Khóa/Mở khóa người dùng
-<li>passwd –l <username>  /  passwd –u <username>
-<li>usermod –L <username> /  usermod –U <username>
-<li>Trong /etc/shadow có thể khóa tài khoản bằng cách thay từ khóa x bằng từ khóa *.
+<ul>
+passwd –l <username>  /  passwd –u <username>
+usermod –L <username> /  usermod –U <username>
+Trong /etc/shadow có thể khóa tài khoản bằng cách thay từ khóa x bằng từ khóa *.
+</ul>
 ###e. Tạo nhóm:
 Cú pháp: #groupadd <groupname>
 <ul>
